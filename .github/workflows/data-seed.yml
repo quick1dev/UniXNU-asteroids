@@ -152,4 +152,4 @@ jobs:
           name: asteroids-data-seed-encrypted
           path: ${{ runner.temp }}/encrypted/data-seed.tar.gz.enc
           if-no-files-found: error
-          retention-days: 7
+          retention-days: 90
